@@ -221,14 +221,18 @@ h3 {
 h4 {
   color: #E5E7EB;
   background-color: #3882f6;
-  font-size: 18px;
   padding-left: 6rem;
   padding-right: 8rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  justify-items: start;
 
   }
 
+.primary-text {
+  font-size: 20px;
+
+}
 .secundary-text {
   font-size: 16px;
 }
@@ -236,5 +240,7 @@ h4 {
 .padding-block-500 {
   padding-block: var(--size-500);
   background-color: #1F2937;
+  text-align: center;
+  color: #F9FAF8;
 }
 
